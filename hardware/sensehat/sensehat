@@ -1,4 +1,4 @@
 #!/bin/bash
 
 BASEDIR=$(dirname $0)
-sudo python -u $BASEDIR/sensehat.py $@
+python -u $BASEDIR/sensehat.py $@
